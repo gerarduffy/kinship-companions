@@ -5,7 +5,7 @@ import Link from "next/link";
 const navigation = [
   {
     name: "About",
-    href: "https://github.com/a16z-infra/companion-app",
+    href: "/about", // Updated this line
     current: false,
   },
 ];
