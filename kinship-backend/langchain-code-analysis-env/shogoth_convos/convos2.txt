@@ -1,0 +1,315 @@
+Lead: Hi, I was scheduled to tour your property this Friday but I need to cancel. (cancel_tour)
+Leasing Agent: I understand, would you like to reschedule for another time? (reschedule_tour)
+Lead: Yes, can we do it next Monday at 10am? (reschedule_tour)
+Leasing Agent: Sure, I've rescheduled your tour for next Monday at 10am. (confirm_tour_time)
+
+Lead: Hi, I saw another property on your website that I'm interested in. Can I get more information about that one? (request_more_information)
+Leasing Agent: Absolutely, I can provide information about the amenities, available units, and neighborhood of our other property. Would you like to schedule a tour for that property?
+Lead: Yes, I would like to see it. Can we schedule a tour for next Friday? (request_tour)
+Leasing Agent: Next Friday works for me. I'll see you then. (confirm_tour_time)
+
+Lead: Hi, I saw your property online and I'm really interested. Can I schedule a video tour? (request_video_tour)
+Leasing Agent: Of course, we can arrange a video tour for you. When would be a good time for you?
+Lead: Next Wednesday at 1pm works for me. (request_tour)
+Leasing Agent: Great, I've scheduled a video tour for next Wednesday at 1pm. (confirm_tour_time)
+
+Lead: Hi, I was scheduled for a tour tomorrow but I can't make it. Can I cancel the tour? (cancel_tour)
+Leasing Agent: I understand, would you like to reschedule the tour for another time? (reschedule_tour)
+Lead: Yes, can we do it next Saturday at 3pm? (reschedule_tour)
+Leasing Agent: Next Saturday at 3pm works for me. I'll see you then. (confirm_tour_time)
+
+Lead: Hi, I'm interested in your property but I prefer doing it on my own. Can I take a self-guided tour? (request_self_guided_tour)
+Leasing Agent: Yes, we offer self-guided tours. When would you like to come in?
+Lead: I'm available this Sunday at 3pm. (request_tour)
+Leasing Agent: Great, I have scheduled a self-guided tour for this Sunday at 3pm. (confirm_tour_time)
+
+Lead: Hi, I saw another property on your website that I'm interested in. Can I tour that one instead? (request_different_property_tour)
+Leasing Agent: Sure, we can arrange a tour at our other property. When are you available?
+Lead: Can we do it next Thursday at 5pm? (request_tour)
+Leasing Agent: Next Thursday at 5pm works for me. I'll see you then. (confirm_tour_time)
+
+Lead: Hi, I'm interested in your property but I'd prefer a self-guided tour. Is that possible? (request_self_guided_tour)
+Leasing Agent: Yes, we can certainly arrange a self-guided tour. When would you like to come in?
+Lead: I'm available this Saturday around 1pm. (request_tour)
+Leasing Agent: Great, I've scheduled a self-guided tour for you this Saturday at 1pm. (confirm_tour_time)
+
+Lead: Hi, I'm interested in your property. Can I request a video tour? (request_video_tour)
+Leasing Agent: Absolutely, we can arrange a video tour for you. When would be a good time for you?
+Lead: How about next Tuesday at 3pm? (request_tour)
+Leasing Agent: Next Tuesday at 3pm works for me. I'll send you the details shortly. (confirm_tour_time)
+
+Lead: Hi, I was considering touring your property but I saw another one on your website that I'm more interested in. Can I tour that one instead? (request_different_property_tour)
+Leasing Agent: Sure, we can arrange a tour at that property. When are you available?
+Lead: I'm free next Wednesday at 2pm. (request_tour)
+Leasing Agent: Next Wednesday at 2pm works for me. I'll see you at our other property then. (confirm_tour_time)Lead: Hi, I came across your property online and I'm really interested. Can you tell me more about it? (request_more_information)
+Leasing Agent: Absolutely! We offer a variety of amenities including a pool, a gym, and a community lounge. We also have a variety of units available. Would you like to schedule a tour to see them?
+Lead: Yes, I would love to. How about next Tuesday? (request_tour)
+Leasing Agent: I'm sorry but we are fully booked next Tuesday. Would Wednesday at 3pm work for you? (request_different_tour_time)
+Lead: Yes, Wednesday at 3pm works for me. (confirm_tour_time)
+
+Lead: Hi, I have a tour scheduled for tomorrow but I need to cancel. (cancel_tour)
+Leasing Agent: I'm sorry to hear that. Would you like to reschedule for another time? (reschedule_tour)
+Lead: Yes, can we reschedule for next Saturday? (reschedule_tour)
+Leasing Agent: Sure, I have scheduled your tour for next Saturday. (confirm_tour_time)
+
+Lead: Hi, I'm currently out of town but I'm interested in your property. Can I take a virtual tour? (request_virtual_tour)
+Leasing Agent: Yes, we can arrange a virtual tour for you. When would be a good time for you?
+Lead: I'm free next Monday at 2pm. (request_tour)
+Leasing Agent: Great, I have scheduled a virtual tour for next Monday at 2pm. (confirm_tour_time)
+
+Lead: Hi, can I schedule a self-guided tour of your property? (request_self_guided_tour)
+Leasing Agent: Yes, we offer self-guided tours. What day and time works best for you?
+Lead: How about this Friday at 1pm? (request_tour)
+Leasing Agent: I'm sorry but we are fully booked this Friday. Could we do it next Monday at 3pm instead? (request_different_tour_time)
+Lead: Yes, next Monday at 3pm works for me. (confirm_tour_time)
+
+Lead: Hi, I noticed that you have another property in the area. Can I tour that one instead? (request_different_property_tour)
+Leasing Agent: Of course, I will arrange a tour for you at our other property. When are you available?
+Lead: Can we do it this Saturday at 2pm? (request_tour)
+Leasing Agent: This Saturday at 2pm works for me. I'll see you at our other property then. (confirm_tour_time)
+
+Lead: Hi, I'm interested in your property. Could I request a video tour? (request_video_tour)
+Leasing Agent: Absolutely, we can arrange a video tour for you. When would be a good time?
+Lead: How about next Wednesday at 4pm? (request_tour)
+Leasing Agent: Next Wednesday at 4pm works for me. I'll send you the details shortly. (confirm_tour_time)
+
+Lead: Hi, I was scheduled for a tour tomorrow but I have to cancel due to unforeseen circumstances. (cancel_tour)
+Leasing Agent: I understand, things happen. Would you like to reschedule the tour for another time? (reschedule_tour)
+Lead: Yes, how about next week same time? (reschedule_tour)
+Leasing Agent: Sure, I have rescheduled your tour for next week at the same time. (confirm_tour_time)
+
+Lead: Hi, I came across your property online and I'm interested. Could I get more information? (request_more_information)
+Leasing Agent: Of course! Our property features a variety of amenities including a pool, gym, and a rooftop lounge. We also have various units available ranging from one to three bedrooms. Would you like to schedule a tour to see them?
+Lead: I'd love to but I'm currently out of town. Is there a way I could take a virtual tour? (request_virtual_tour)
+Leasing Agent: Absolutely, we can arrange a virtual tour for you. When would be a good time for you?
+Lead: I'm free next Monday at 2pm. (request_tour)
+Leasing Agent: Great, I have scheduled a virtual tour for next Monday at 2pm. (confirm_tour_time)
+
+Lead: Hi, I'm interested in your property but I prefer to do the tour on my own. Is that possible? (request_self_guided_tour)
+Leasing Agent: Yes, we offer self-guided tours. When would you like to come in?
+Lead: I'm available this Saturday at 3pm. (request_tour)
+Leasing Agent: Great, I've scheduled a self-guided tour for you this Saturday at 3pm. (confirm_tour_time)
+
+Lead: Hi, I saw another property on your website that I'm interested in. Can I tour that one instead? (request_different_property_tour)
+Leasing Agent: Sure, we can arrange a tour for that property. When are you available?
+Lead: How about next Friday at 11am? (request_tour)
+Leasing Agent: I'm sorry but we are fully booked next Friday. Could we do it next Monday at 1pm instead? (request_different_tour_time)
+Lead: Yes, next Monday at 1pm works for me. (confirm_tour_time)
+
+Lead: Hi, I am interested in your property. Can you send me more information? (request_more_information)
+Leasing Agent: Of course! I can send you information on our available units, amenities, and community. Would this be helpful?
+Lead: Yes, that would be great. Also, I'd like to tour the property. (request_tour)
+Leasing Agent: Fantastic! I have availability on Monday at 10am and Thursday at 2pm. Do either of those times work for you?
+Lead: Could we do Friday at 1pm instead? (request_different_tour_time)
+Leasing Agent: I'm afraid I have another appointment at that time. Would Friday at 3pm work for you?
+Lead: Yes, that works for me. See you then. (confirm_tour_time)
+Leasing Agent: Perfect! I'll see you on Friday at 3pm.
+Lead: Actually, can I cancel the tour? Something came up. (cancel_tour)
+Leasing Agent: No problem, would you like to reschedule for a different time? (reschedule_tour)
+Lead: Yes, could we do it next Tuesday at 11am? (reschedule_tour)
+Leasing Agent: Absolutely, I'll see you next Tuesday at 11am!
+Lead: Great, thank you!
+Leasing Agent: You're welcome!
+
+Lead: Hi, I am interested in your property but I'm currently out of town. Can I take a virtual tour? (request_virtual_tour)
+Leasing Agent: Sure, we can arrange for a virtual tour. I'll send you the details shortly.
+Lead: Could we also schedule a video tour? I'd like to ask questions in real time. (request_video_tour)
+Leasing Agent: Absolutely, that's a great idea. We can schedule it at your convenience.
+Lead: I'm also interested in a self-guided tour once I'm back in town. Is that possible? (request_self_guided_tour)
+Leasing Agent: Yes, we can certainly arrange for a self-guided tour. Let me know when you're back so we can schedule it.
+Lead: I also saw another property listed on your website. Could I tour that one as well? (request_different_property_tour)
+Leasing Agent: Sure, we can arrange a tour for that property as well. I'll send the details shortly.
+Lead: Great, thanks for your help!
+Leasing Agent: You're welcome! Let me know if you have any other questions.Lead: Hi, can you tell me more about the amenities at your property? (request_more_information)
+Leasing Agent: Absolutely! We have a pool, gym, and community lounge. Would you like to schedule a tour to see them?
+Lead: Yes, I would like to see the property. How about this Friday? (request_tour)
+Leasing Agent: Unfortunately, we are booked this Friday. Would Saturday at 2pm work for you? (request_different_tour_time)
+Lead: That should work. Let me confirm and get back to you.
+
+Lead: Hi, I noticed that you have another property in the area. Can I tour that one instead? (request_different_property_tour)
+Leasing Agent: Of course, I will arrange a tour for you at our other property. When are you available?
+Lead: I'm free next Monday at 1pm. (request_tour)
+Leasing Agent: Great, I've scheduled a tour for you at our other property next Monday at 1pm. (confirm_tour_time)
+
+Lead: Hi, I can't make it to the tour today. Can we reschedule? (cancel_tour)
+Leasing Agent: I understand, no problem. When would you like to reschedule for? (reschedule_tour)
+Lead: How about next Tuesday at the same time? (reschedule_tour)
+Leasing Agent: I have scheduled you for next Tuesday at the same time. (confirm_tour_time)
+
+Lead: Hi, can I take a self guided tour of the property? (request_self_guided_tour)
+Leasing Agent: Sure, I can arrange that. What day and time works best for you? (request_different_tour_time)
+Lead: I'm flexible. Can you send me some available times?
+
+Lead: Hi, can I schedule a virtual tour of the property? (request_virtual_tour)
+Leasing Agent: Certainly, we can set that up for you. When are you available?
+Lead: I am available this Thursday at 4pm. (request_tour)
+Leasing Agent: Great, I have scheduled a virtual tour for this Thursday at 4pm. (confirm_tour_time)
+
+Lead: Hi, do you offer video tours of your property? (request_video_tour)
+Leasing Agent: Yes, we do. I can send you a link to our video tour. Would you like that?
+Lead: Yes, please. Thank you.Lead: Hi, I'm really interested in your property. Can you tell me more about the amenities and the neighborhood? (request_more_information)
+Leasing Agent: Absolutely, our property features a state-of-the-art fitness center, a rooftop lounge, and is located in a thriving neighborhood with many restaurants and parks. Would you like to schedule a tour to see it for yourself?
+Lead: Yes, that sounds great. Can we arrange a tour for next Wednesday? (request_tour)
+Leasing Agent: I'm sorry but we are fully booked next Wednesday. Could we do it next Thursday at 3pm instead? (request_different_tour_time)
+Lead: Yes, next Thursday at 3pm works for me. (confirm_tour_time)
+
+Lead: Hi, I was scheduled to tour your property tomorrow but something came up. Can I cancel my tour? (cancel_tour)
+Leasing Agent: I'm sorry to hear that. Would you like to reschedule for another time? (reschedule_tour)
+Lead: Yes, can we do it next Sunday at 11am instead? (reschedule_tour)
+Leasing Agent: Sure, that works for me. I've rescheduled your tour for next Sunday at 11am. (confirm_tour_time)
+
+Lead: Hi, I'm interested in your property but I'm currently in another city. Is there any way I can take a virtual tour? (request_virtual_tour)
+Leasing Agent: Yes, we can arrange a virtual tour for you. We can also offer a live video tour if you'd like to ask questions in real time. (request_video_tour)
+Lead: That sounds great. Can we do the video tour this Saturday? (request_tour)
+Leasing Agent: Yes, I have scheduled a video tour for you this Saturday. (confirm_tour_time)
+
+Lead: Hi, I'd like to tour your property but I prefer doing it on my own. Can I take a self-guided tour? (request_self_guided_tour)
+Leasing Agent: Yes, we offer self-guided tours. I can arrange that for you. When would you like to come in?
+Lead: I'm available next Monday at 2pm. (request_tour)
+Leasing Agent: Great, I have scheduled a self-guided tour for next Monday at 2pm. (confirm_tour_time)
+
+Lead: Hi, I saw another property on your website that I'm interested in. Can I tour that one instead? (request_different_property_tour)
+Leasing Agent: Sure, we can arrange a tour at our other property. When are you available?
+Lead: Can we do it this Friday at 5pm? (request_tour)
+Leasing Agent: I'm sorry but we are fully booked this Friday. Could we do it next Monday at 3pm instead? (request_different_tour_time)
+Lead: Yes, next Monday at 3pm works for me. (confirm_tour_time)Lead: Hi, I saw your property and I'm really interested. Can I schedule a tour for next week? (request_tour)
+Leasing Agent: Of course! We have availability on Tuesday and Thursday of next week. Which day works best for you?
+Lead: Actually, I'm only available on weekends. Can we do it on Saturday? (request_different_tour_time)
+Leasing Agent: Sure, we can schedule your tour for Saturday at 11am. Does that work for you?
+Lead: Yes, that's perfect. (confirm_tour_time)
+
+Lead: Hi, I'm unable to visit your property in person. Could I request a virtual tour? (request_virtual_tour)
+Leasing Agent: Absolutely! We can certainly arrange a virtual tour for you. When would be a good time for you?
+Lead: Anytime next week would be great.
+Leasing Agent: How about next Wednesday at 2pm?
+Lead: That works for me. (confirm_tour_time)
+
+Lead: Hi, I was scheduled for a tour tomorrow but I need to cancel. (cancel_tour)
+Leasing Agent: I'm sorry to hear that. Would you like to reschedule the tour for another time? (reschedule_tour)
+Lead: Yes, can we do it next Friday instead?
+Leasing Agent: Next Friday at the same time works for me. I'll see you then. (confirm_tour_time)
+
+Lead: Hi, I saw that you have another property available. Can I get more information about it? (request_more_information)
+Leasing Agent: Of course! I can provide information about the amenities, available units, and neighborhood. Would you like to schedule a tour of this property as well?
+Lead: Yes, I'd love to see it in person. How about next Thursday? (request_tour)
+Leasing Agent: Next Thursday works for me. I'll see you then. (confirm_tour_time)
+
+Lead: Hi, I was scheduled for a tour tomorrow but something came up. Can I reschedule? (reschedule_tour)
+Leasing Agent: Of course, I understand. When would you like to reschedule the tour for?
+Lead: How about next Tuesday at the same time? (reschedule_tour)
+Leasing Agent: That works for me. I've rescheduled your tour for next Tuesday. (confirm_tour_time)
+
+Lead: Hi, I'm interested in your property but I'm currently out of town. Can I arrange a virtual tour? (request_virtual_tour)
+Leasing Agent: Absolutely, we can arrange a virtual tour for you. When would be a good time for you?
+Lead: Sometime next week would be great.
+Leasing Agent: How about next Wednesday at 3pm?
+Lead: That works for me. (confirm_tour_time)
+
+Lead: Hi, I'm interested in your property but I would like to tour it on my own. Do you offer self-guided tours? (request_self_guided_tour)
+Leasing Agent: Yes, we do offer self-guided tours. When would you like to come in for the tour?
+Lead: Can I come in this Saturday at 2pm? (request_tour)
+Leasing Agent: I've scheduled your self-guided tour for this Saturday at 2pm. (confirm_tour_time)
+
+Lead: Hi, I was scheduled to tour your property this Friday but I need to cancel. (cancel_tour)
+Leasing Agent: I understand, would you like to reschedule for another time? (reschedule_tour)
+Lead: Yes, can we do it next Monday at 10am? (reschedule_tour)
+Leasing Agent: Sure, I've rescheduled your tour for next Monday at 10am. (confirm_tour_time)
+
+Lead: Hi, I saw another property on your website that I'm interested in. Can I get more information about that one? (request_more_information)
+Leasing Agent: Absolutely, I can provide information about the amenities, available units, and neighborhood of our other property. Would you like to schedule a tour for that property?
+Lead: Yes, I would like to see it. Can we schedule a tour for next Friday? (request_tour)
+Leasing Agent: Next Friday works for me. I'll see you then. (confirm_tour_time)
+
+Lead: Hi, I saw your property online and I'm really interested. Can I schedule a video tour? (request_video_tour)
+Leasing Agent: Of course, we can arrange a video tour for you. When would be a good time for you?
+Lead: Next Wednesday at 1pm works for me. (request_tour)
+Leasing Agent: Great, I've scheduled a video tour for next Wednesday at 1pm. (confirm_tour_time)
+
+Lead: Hi, I was scheduled for a tour tomorrow but I can't make it. Can I cancel the tour? (cancel_tour)
+Leasing Agent: I understand, would you like to reschedule the tour for another time? (reschedule_tour)
+Lead: Yes, can we do it next Saturday at 3pm? (reschedule_tour)
+Leasing Agent: Next Saturday at 3pm works for me. I'll see you then. (confirm_tour_time)
+
+Lead: Hi, I'm interested in your property but I prefer doing it on my own. Can I take a self-guided tour? (request_self_guided_tour)
+Leasing Agent: Yes, we offer self-guided tours. When would you like to come in?
+Lead: I'm available this Sunday at 3pm. (request_tour)
+Leasing Agent: Great, I have scheduled a self-guided tour for this Sunday at 3pm. (confirm_tour_time)
+
+Lead: Hi, I saw another property on your website that I'm interested in. Can I tour that one instead? (request_different_property_tour)
+Leasing Agent: Sure, we can arrange a tour at our other property. When are you available?
+Lead: Can we do it next Thursday at 5pm? (request_tour)
+Leasing Agent: Next Thursday at 5pm works for me. I'll see you then. (confirm_tour_time)Lead: Hi, I've been looking at your property online and I'm very interested. Can I get some more information about it? (request_more_information)
+Leasing Agent: Absolutely! I can provide you with information about our units, amenities, and more. I could also schedule a tour for you to see everything in person. Would you like that?
+Lead: Yes, that sounds great. How about next Tuesday? (request_tour)
+Leasing Agent: I'm sorry, we're fully booked next Tuesday. Would Wednesday at 3pm work for you? (request_different_tour_time)
+Lead: Yes, that works for me. (confirm_tour_time)
+
+Lead: Hi, I scheduled a tour for tomorrow but I need to cancel. (cancel_tour)
+Leasing Agent: I understand, would you like to reschedule for another time? (reschedule_tour)
+Lead: Yes, can we move it to next Friday at 2pm? (reschedule_tour)
+Leasing Agent: Next Friday at 2pm works for me. I'll see you then. (confirm_tour_time)
+
+Lead: Hi, I'm currently out of town but I'm interested in your property. Can I take a virtual tour? (request_virtual_tour)
+Leasing Agent: Yes, we can definitely arrange a virtual tour for you. When would be a good time for you?
+Lead: Anytime next week would be great.
+Leasing Agent: How about next Monday at 2pm?
+Lead: That works for me. (confirm_tour_time)
+
+Lead: Hi, I'm interested in your property but I'd prefer to tour it on my own. Do you offer self-guided tours? (request_self_guided_tour)
+Leasing Agent: Yes, we do offer self-guided tours. When would you like to come in for the tour?
+Lead: Can I come in this Sunday at 1pm? (request_tour)
+Leasing Agent: I've scheduled your self-guided tour for this Sunday at 1pm. (confirm_tour_time)
+
+Lead: Hi, I saw another property on your website that I'm interested in. Can I get more information about it? (request_more_information)
+Leasing Agent: Of course! I can provide information about the amenities, available units, and neighborhood. Would you like to schedule a tour of this property as well?
+Lead: Yes, I'd love to see it in person. How about next Wednesday? (request_tour)
+Leasing Agent: Next Wednesday works for me. I'll see you then. (confirm_tour_time)
+Lead: Hi, I was scheduled for a tour tomorrow but something came up. Can I reschedule? (reschedule_tour)
+Leasing Agent: Of course, I understand. When would you like to reschedule the tour for?
+Lead: How about next Tuesday at the same time? (reschedule_tour)
+Leasing Agent: That works for me. I've rescheduled your tour for next Tuesday. (confirm_tour_time)
+
+Lead: Hi, I'm interested in your property but I'm currently out of town. Can I arrange a virtual tour? (request_virtual_tour)
+Leasing Agent: Absolutely, we can arrange a virtual tour for you. When would be a good time for you?
+Lead: Sometime next week would be great.
+Leasing Agent: How about next Wednesday at 2pm?
+Lead: That works for me. (confirm_tour_time)
+
+Lead: Hi, I'm interested in your property but I would like to tour it on my own. Do you offer self-guided tours? (request_self_guided_tour)
+Leasing Agent: Yes, we do offer self-guided tours. When would you like to come in for the tour?
+Lead: Can I come in this Saturday at 2pm? (request_tour)
+Leasing Agent: I've scheduled your self-guided tour for this Saturday at 2pm. (confirm_tour_time)
+
+Lead: Hi, I was scheduled to tour your property this Friday but I need to cancel. (cancel_tour)
+Leasing Agent: I understand, would you like to reschedule for another time? (reschedule_tour)
+Lead: Yes, can we do it next Monday at 10am? (reschedule_tour)
+Leasing Agent: Sure, I've rescheduled your tour for next Monday at 10am. (confirm_tour_time)
+
+Lead: Hi, I saw another property on your website that I'm interested in. Can I get more information about that one? (request_more_information)
+Leasing Agent: Absolutely, I can provide information about the amenities, available units, and neighborhood of our other property. Would you like to schedule a tour for that property?
+Lead: Yes, I would like to see it. Can we schedule a tour for next Friday? (request_tour)
+Leasing Agent: Next Friday works for me. I'll see you then. (confirm_tour_time)
+
+Lead: Hi, I saw your property online and I'm really interested. Can I schedule a video tour? (request_video_tour)
+Leasing Agent: Of course, we can arrange a video tour for you. When would be a good time for you?
+Lead: Next Wednesday at 1pm works for me. (request_tour)
+Leasing Agent: Great, I've scheduled a video tour for next Wednesday at 1pm. (confirm_tour_time)
+
+Lead: Hi, I was scheduled for a tour tomorrow but I can't make it. Can I cancel the tour? (cancel_tour)
+Leasing Agent: I understand, would you like to reschedule the tour for another time? (reschedule_tour)
+Lead: Yes, can we do it next Saturday at 3pm? (reschedule_tour)
+Leasing Agent: Next Saturday at 3pm works for me. I'll see you then. (confirm_tour_time)
+
+Lead: Hi, I'm interested in your property but I prefer doing it on my own. Can I take a self-guided tour? (request_self_guided_tour)
+Leasing Agent: Yes, we offer self-guided tours. When would you like to come in?
+Lead: I'm available this Sunday at 3pm. (request_tour)
+Leasing Agent: Great, I have scheduled a self-guided tour for this Sunday at 3pm. (confirm_tour_time)
+
+Lead: Hi, I saw another property on your website that I'm interested in. Can I tour that one instead? (request_different_property_tour)
+Leasing Agent: Sure, we can arrange a tour at our other property. When are you available?
+Lead: Can we do it next Thursday at 5pm? (request_tour)
+Leasing Agent: Next Thursday at 5pm works for me. I'll see you then. (confirm_tour_time)Lead: Hi, I'm considering several properties and would like more information about yours. Are there any unique features or amenities I should know about? (request_more_information)
+Leasing Agent: Absolutely, our property boasts a state-of-the-art gym, a rooftop terrace, and pet-friendly units. We'd love for you to come see it for yourself. Would you like to schedule a tour?
+Lead: Yes, that sounds great. I'd like to come in next Monday. (request_tour)
+Leasing Agent: I'm sorry, we're fully booked next Monday. Would Tuesday at 2pm work for you? (request_different_tour_time)
+Lead: Yes, that works for me. (confirm_tour_time)

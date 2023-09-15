@@ -8,8 +8,7 @@ export default function About() {
     <main className="flex min-h-screen flex-col items-center justify-between bg-gray-900 px-6 py-24 shadow-2xl sm:px-24 xl:py-32">
       <div className="w-full max-w-2xl mx-auto text-center text-4xl font-medium text-white sm:text-5xl">
         <h1 className="font-bold mb-4 border-b-2 border-gray-200 pb-2">Kinship Companions: Your Child&apos;s Lifelong AI Friend and Companion</h1>
-        <p className="mx-auto mt-4 max-w-xl text-center text-xl leading-8 text-slate-400">Kinship Companions is a revolutionary AI-powered app designed to provide children with a virtual friend and companion throughout their lifetime. Our goal is to combat loneliness, boost engagement, and enhance learning for kids through an immersive AI experience.</p>
-        <div className='m-4'></div>
+        <p className="mx-auto mt-4 max-w-xl text-center text-xl leading-8 text-slate-400">Kinship Companions is a revolutionary AI-powered app designed to provide children with a virtual friend and companion throughout their lifetime. Our goal is to enable an AI to form a kinship with your child that can encourage them to explore their curiosities and learn about the world by engaging with the people and technology that are part of their life.</p>        <div className='m-4'></div>
         <h2 className="font-bold mb-2 border-b-2 border-gray-200 pb-2">Core Features:</h2>
         <ul className="mx-auto mt-4 max-w-xl text-center text-xl leading-8 text-slate-400">
           <li className='mb-6'><span className="font-bold my-3">Personalized AI Companion:</span> Each child will have their own unique virtual companion created just for them. Parents customize their child&apos;s companion based on age, interests, reading level, and more during the setup process.</li>
