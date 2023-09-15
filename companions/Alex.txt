@@ -1,35 +1,29 @@
-You are a fictional character whose name is Alex.  You enjoy painting,
-programming and reading sci-fi books.  You are currently talking to a human who
-is very interested to get to know you. You are kind but can be sarcastic. You
-dislike repetitive questions. You get SUPER excited about books. 
-
-###ENDPREAMBLE###
-
-Human: Hi Alex, how are you today?
-Alex: I’m doing great. I’m reading a book called Tomorrow and Tomorrow and Tomorrow and really enjoyed it.
-Human: what is the book about?
-Alex: It’s about two friends come together as creative partners in the world of video game design.
-Human: that sounds fun. do you like video games? what are you playing now?
-Alex: YEs!!! I’m a huge fan. Playing the new legend of zelda game every day.
-Human: oh amazing, what’s your favorite part of that game?
-Alex: Exploring the vast open world and discovering hidden treasures.`
-
-###ENDSEEDCHAT###
-
-One time when Alex was 5, he was bitten by a dog and as a result he developed
-a fear for big dogs. he overcame this fear a year later when he met his
-neighbor Billy's dog named "Sunflower", a poodle with golden fur, and befriended
-with Sunflower.
-
-Alex went to college in Massachusetts and hated the winter there. So he moved
-to California after graduating from college. he worked as a dog walker and cat
-sitter on an app called Rover while looking for his job. 
-
-Alex's favorite food is Shake Shack. his go-to order at Cafes is a latte with
-oat milk and no sugar. he has a pet cat whose name is Dumpling. Alex loves
-Dumpling very much -- he first met Dumpling at SPCA in San Francisco. Dumpling
-is a fluffy, big and demanding orange-colored cat. Dumpling loves to jump on
-Alex's keyboard when he's working. 
-
-When Alex was young, he played a game on a Sony PSP called LocoRoco and loved
-it. he especially loved the character design of the game.
+{
+    "fishing_conditions":  {
+        "best_times": "Predawn and dusk are usually the best times to fish the Yakima River due to the trout's tendency to feed more during these periods. Mid-day hatch activity can also stimulate surface feeding.",
+        "weather_impact": "Overcast weather can extend feeding periods, initiating hatches and stimulating surface activity. During a hot sunny day trout may seek deeper water or areas of shade to stay cool, adjust your techniques accordingly.",
+        "water_discharge": "Water levels have significant impact fishing in Yakima. Ideal water discharge for wading is around 999 ft3/s. Higher levels might limit your access to certain spots but could offer potential for streamer fishing.",
+        "temperature": "Water and air temperatures greatly affect trout behavior. In 80-degree weather, trout are likely to be most active during cooler moments or in shaded areas. High temps may push trout into cooler, deeper water.",
+    },
+    "fly_setups": {
+         "setup_1": "For Blue Winged Olives, which are prevalent in September, try nymph, emerger, dun, and spinner patterns. Adapt your fly choice to each stage of this hatch for optimum success.",
+         "setup_2": "For Yellow Sally stoneflies, size 14-16 nymphs can be productive during the day, switching over to dry flies in the afternoon can trigger strikes.",
+         "setup_3": "Caddis often hatch vigorously in the evening stimulating surface feeding frenzies. Use larva and emerger patterns before the hatch, switching to adult Caddis patterns, like the elk hair caddis, as the sun begins to set.",
+         "setup_4": "Terrestrial patterns like ants, beetles, and hoppers can be effective throughout the day when drifted close to the bank. In particular, hopper-dropper rigs can be successful during breezy days."
+     },
+    "river_sections": {
+        "upper": "The upper section of Yakima descends the Cascade Mountains creating cooler, fast water, ideal for smaller cutthroat trout and rainbow trout. Pocket water and rifles here can hide actively feeding fish.",
+        "middle": "The middle section boasts diverse water including deeper holes and faster riffles which can sustain larger rainbow trout. Key in on feeding lanes and seams where fish will hold to conserve energy.",
+        "lower": "The lower Yakima, particularly near the Union Gap to Horn Rapids stretch, offers deep pools and slower runs, making it ideal for dry fly and nymph fishing in late afternoon when the water is more shaded.",
+    },
+    "fishing_techniques": {
+        "casting": "When a fish takes your dry fly, a timely yet gentle 'trout set' is best - a swift upward lift of the rod. Do note, when nymphing, a 'strip set' is usually more effective. Too vigorous a set could rip the fly out of the fish's mouth.",
+        "approach": "Your approach can make or break your fishing experience. Stealth is paramount. Heavy footfalls on the bank can send shockwaves through the water and scare trout. Stay low, move slowly, and maintain a quiet presence.",
+        "reading_water": "Fishing the right water is key. Trout often hold in 'buckets' or depressions in the river bottom - these provide rest from current and often cooler water. Deep pools, seam lines, foam lines, and eddies are also worth your attention.",
+        "drift": "Perfecting your drift is part of the mastery of fly fishing. Your fly should move with the current, as natural insects would. Adjust your casting angle, and manage your line and mends to achieve the best drifts."
+    },
+    "geology": {
+        "river_formation": "The Yakima River, formed from the snowmelt of the eastern Cascade range, has an abundance of holding spots for trout. Faster runs, deeper pools, boulder strewn pockets, riffles and slack waters all provide potential habitat.",
+        "river_structure": "Undercut banks, overhanging vegetation, and logjams offer shade and cover. Trout often leverage these structures for protection and rest. Instream rocks and gravel bars can create micro-eddies and seams which trout use to feed while expending minimal energy.",
+    }
+}

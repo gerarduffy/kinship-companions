@@ -1,35 +1,36 @@
-# kinship-backend
+# Kinship Backend Development Guide
 
-Kinship Backend Development Guide
+This guide helps developers understand and extend the `app.py` file of the `kinship-backend` project.
 
-This guide will help you understand and develop in the app.py file of the kinship-backend project.
-Overview
+## Overview
 
-The app.py file is the main entry point of the application. It initializes the Pinecone vector store, loads documents, creates embeddings, and sets up a conversational retrieval chain using OpenAI's GPT-3.5-turbo model. It also handles the conversation history and writes the conversation to a text file.
-Setup
+The `app.py` file is the main entry point of the application. It initializes the Pinecone vector store, loads documents, creates embeddings, sets up a conversational retrieval chain using OpenAI's GPT-3.5-turbo model, manages conversation history, and writes the conversation to a text file.
 
-Before running the application, you need to set up the environment variables. Create a .env file in the root directory and add the following variables:
+## Setup 
 
-- PINECONE_API_KEY: Your Pinecone API key.
-- PINECONE_ENVIRONMENT: The Pinecone environment to use.
-- PINECONE_INDEX_NAME: The name of the Pinecone index.
-- OPENAI_API_KEY: Your OpenAI API key.
+Before running the application, you need to set the following environment variables. Create a `.env` in the root directory and add these variables:
 
-Email connor@kinshipcompaions.org to get api keys.
+```
+PINECONE_API_KEY=<your_pinecone_api_key>
+PINECONE_ENVIRONMENT=<your_pinecone_environment>
+PINECONE_INDEX_NAME=<your_pinecone_index_name>
+OPENAI_API_KEY=<your_openai_api_key>
+```
+Email `connor@kinshipcompaions.org` to obtain the respective API keys.
 
-Running the Application
+## Running the Application
 
-Open app.py in Pycharm and scroll to the bottom, then right click the green arrow next to the
-    __main__() function.
+1. Open `app.py` in Pycharm and scroll to the bottom.
+2. Right-click the green arrow next to the `__main__()` function.
+3. Edit the run configuration to enter your environment variables after the default `PYTHONBUFFERED` variable. Separate each variable with a semicolon (`;`) and leave no whitespace.
+4. Click OK.
+5. Click the green arrow in the top right to run the application.
 
-Edit the run config to enter your environment variables after the default PYTHONBUFFER variable by seperating each variable with a ; and leaving no whitespace.
+## Code Documentation
 
-Then click OK, and click the green arrow in the top right.
+### Main Function
 
-### CODE DOCS
-Main Function
-
-The main() function in app.py does the following:
+The `main()` function in `app.py` does the following:
 
 - Initializes Pinecone and checks if the index specified in the environment variable exists. If not, it creates a new index.
 - Loads documents from a PDF file and creates embeddings using the OpenAI model.
@@ -37,11 +38,12 @@ The main() function in app.py does the following:
 - Loops through a list of questions, enhances them with additional context, and retrieves answers using the retrieval chain.
 - Writes the conversation history to a text file.
 
-Additional Functions
+### Additional Functions
 
-The marvin_reading_level_scorer() function calculates the reading level score of the companion's response.
+The `marvin_reading_level_scorer()` function calculates the reading level score for the companion's response.
 
-The Companion, Message, Conversation, and CompanionConversations classes are models to represent the state of the Companion.
-Extending the Application
+The `Companion`, `Message`, `Conversation`, and `CompanionConversations` classes are models used to represent the state of the Companion.
 
-To extend the application, you can modify the questions list in app.py to include more questions. You can also modify the main() function to change the way the application handles conversations.
+## Extending the Application
+
+To extend the application, modify the `questions` list in `app.py` to include more questions. You can also modify the `main()` function to change how the application handles conversations.

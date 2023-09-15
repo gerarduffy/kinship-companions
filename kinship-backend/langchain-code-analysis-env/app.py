@@ -1,6 +1,5 @@
 import time
 import openai
-from dotenv import load_dotenv
 from langchain.memory import ConversationBufferWindowMemory
 from ReadingLevelScore import ReadingLevelScore
 import random
@@ -19,9 +18,9 @@ from langchain.vectorstores import Pinecone
 
 
 ### CONFIG ###
-# model_name = 'gpt-4'
+model_name = 'gpt-4'
 # model_name = 'gpt-3.5-turbo'
-model_name = 'gpt-3.5-turbo-16k'
+# model_name = 'gpt-3.5-turbo-16k'
 embedding_model_name = 'text-embedding-ada-002'
 
 ### CHILD INFO ###
