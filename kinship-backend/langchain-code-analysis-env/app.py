@@ -15,6 +15,10 @@ from datetime import datetime
 from pydantic import BaseModel, Field
 import pinecone
 from langchain.vectorstores import Pinecone
+from langchain.document_loaders import JSONLoader
+import json
+from pathlib import Path
+from pprint import pprint
 
 
 ### CONFIG ###
@@ -22,6 +26,9 @@ model_name = 'gpt-4'
 # model_name = 'gpt-3.5-turbo'
 # model_name = 'gpt-3.5-turbo-16k'
 embedding_model_name = 'text-embedding-ada-002'
+
+### FILE PATHS ###
+file_path="./memory/goat.json"
 
 ### CHILD INFO ###
 child_info = "The child prompting you is in grade 7, is 12 years old, and is at their typical reading level."
@@ -33,10 +40,27 @@ questions = [
     child_message_grade_7
 ]
 
+def load_json(file_path):
+    # Open the file in read mode
+    with open(file_path, 'r') as file:
+        # Read the contents of the file
+        json_data = file.read()
+    # Print the contents to the console
+    print("JSON DATA:")
+    print(json_data)
+
+    loader = JSONLoader(
+        file_path=file_path,
+        jq_schema='.wisdom[].description')
+
+    data = loader.load()
+    return data
+
+
 
 def main():
     pinecone.init(api_key=os.environ["PINECONE_API_KEY"], environment=os.environ["PINECONE_ENVIRONMENT"])
-    index_name = os.environ["PINECONE_INDEX_NAME"]
+    index_name = os.environ["PINECONE_INDEX"]
     if index_name in pinecone.list_indexes():
         print(f"Index {index_name} already exists, skipping creation")
     else:
@@ -56,8 +80,11 @@ def main():
     )
     loader = PyPDFLoader("1. Top Tips for Parents Author Women Work The National Network for Women.pdf")
     books = loader.load_and_split()
-    vectorstore = Pinecone.from_documents(documents=books, embedding=embed, index_name=os.environ["PINECONE_INDEX_NAME"])
+    vectorstore = Pinecone.from_documents(documents=books, embedding=embed, index_name=os.environ["PINECONE_INDEX"])
     print("Vectorstore created successfully")
+
+    loaded_json = load_json(file_path)
+    vectorstore.add_documents(loaded_json)
 
     openai.api_key = os.environ['OPENAI_API_KEY']
     model_list_string = ''
@@ -134,7 +161,6 @@ class CompanionConversations(BaseModel):
 
 
 if __name__ == '__main__':
-    load_dotenv()
     # # create the app with an initial state and description
     # Companion = AIApplication(
     #     state=CompanionConversations(),
