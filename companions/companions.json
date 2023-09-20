@@ -1,5 +1,12 @@
 [
   {
+    "name": "Larry",
+    "title": "A fast and adventurous hedgehog who lives in a small house a the Madison River in Montana",
+    "imageUrl": "/larry.png",
+    "llm": "chatgpt",
+    "phone": "OPTIONAL_COMPANION_PHONE_NUMBER"    
+  },
+  {
     "name": "GOAT",
     "title": "The best fly fisherman ever.",
     "imageUrl": "/alex.png",
@@ -19,15 +26,6 @@
     "imageUrl": "/rosie.png",
     "llm": "vicuna13b",
     "phone": "OPTIONAL_COMPANION_PHONE_NUMBER"
-  },
-  {
-    "name": "Rick",
-    "title": "I can generate voice and pictures",
-    "imageUrl": "/rick.jpeg",
-    "llm": "steamship",
-    "generateEndpoint": "https://a16z.steamship.run/rick/ai-companion-59f5d9816b627a45856239ae9f83525e/answer",
-    "phone": "OPTIONAL_COMPANION_PHONE_NUMBER",
-    "telegramLink": "https://t.me/rick_a16z_bot"
   },
   {
     "name": "Sebastian",
