@@ -78,7 +78,7 @@ def main():
         model=embedding_model_name,
         openai_api_key=os.environ['OPENAI_API_KEY']
     )
-    loader = PyPDFLoader("1. Top Tips for Parents Author Women Work The National Network for Women.pdf")
+    loader = PyPDFLoader("wisdom/1. Top Tips for Parents Author Women Work The National Network for Women.pdf")
     books = loader.load_and_split()
     vectorstore = Pinecone.from_documents(documents=books, embedding=embed, index_name=os.environ["PINECONE_INDEX"])
     print("Vectorstore created successfully")

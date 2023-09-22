@@ -1,4 +1,4 @@
-from Snapshottable import Snapshottable
+from memory.core import Snapshottable
 
 class Human(Snapshottable):
     def __init__(self, transaction_date, interests=None, vocabulary=None, knowledge=None, memories=None, accomplishments=None, relationships=None, family=None, home=None, diet=None, sleep_schedule=None, medical_history=None, political_opinions=None, career=None, aspirations=None, romance=None, entertainment=None, skills=None, pleasures=None, reading_level_scores=None, communication_styles=None, emotions=None, best_communication_method=None):
