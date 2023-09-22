@@ -13,6 +13,7 @@ marvin = "^1.5.0"
 pydantic = "^2.3.0"
 langchain = "^0.0.300"
 pinecone-client = "3.0.0rc2"
+gunicorn = "20.2.0"
 
 
 [build-system]

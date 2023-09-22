@@ -28,7 +28,7 @@ model_name = 'gpt-4'
 embedding_model_name = 'text-embedding-ada-002'
 
 ### FILE PATHS ###
-file_path="./memory/goat.json"
+file_path= "memory/goat.json"
 
 ### CHILD INFO ###
 child_info = "The child prompting you is in grade 7, is 12 years old, and is at their typical reading level."
