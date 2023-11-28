@@ -4,6 +4,7 @@ import { PineconeClient } from "@pinecone-database/pinecone";
 import { PineconeStore } from "langchain/vectorstores/pinecone";
 import { SupabaseVectorStore } from "langchain/vectorstores/supabase";
 import { SupabaseClient, createClient } from "@supabase/supabase-js";
+import { useAuth } from '@clerk/clerk-react';
 
 export type CompanionKey = {
   companionName: string;

@@ -7,11 +7,11 @@
     "phone": "OPTIONAL_COMPANION_PHONE_NUMBER"    
   },
   {
-    "name": "GOAT",
-    "title": "The best fly fisherman ever.",
+    "name": "Kelly",
+    "title": "Fly fishing guide for the Yakima River",
     "imageUrl": "/alex.png",
     "llm": "chatgpt",
-    "phone": "+18335830857"
+    "phone": "OPTIONAL_COMPANION_PHONE_NUMBER"
   },
   {
     "name": "Evelyn",
