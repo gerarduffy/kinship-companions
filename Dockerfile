@@ -12,6 +12,9 @@ WORKDIR /app
 # Set production environment
 ENV NODE_ENV=production
 
+# Throw-away build stage to reduce size of final image
+FROM base as build
+
 # Install packages needed to build node modules
 RUN apt-get update -qq && \
     apt-get install -y python-is-python3 pkg-config build-essential 
@@ -28,12 +31,6 @@ RUN npm run build
 
 # Remove development dependencies
 RUN npm prune --omit=dev
-
-# Start the Flask backend
-WORKDIR /app/kinship-mems
-COPY kinship-mems/requirements.txt requirements.txt
-RUN pip3 install -r requirements.txt
-COPY kinship-mems .
 
 # Final stage for app image
 FROM base
