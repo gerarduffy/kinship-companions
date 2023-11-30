@@ -11,7 +11,7 @@ export default function Home() {
         </h1>
 
         <p className="mx-auto mt-4 max-w-xl text-center text-xl leading-8 text-slate-400">
-          Let us know who you like the most :) They will all have access to the same memories you create with them and know the things that you have told them in the past.
+          Click on a companion and start chatting! They will all have access to the same memories you create with them and know the things that you have told them in the past.
         </p>
 
         <Examples />
